@@ -88,7 +88,7 @@ export default defineConfig(({ mode }) => {
     },
     server: {
       // Service-to-service OAuth token call requires a specified host for the wstd.dev domain
-      host: "wstd.dev",
+      host: true,
       // Needed for SSL
       proxy: {},
 
